@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+
+<h1 id="titulo">Meu lanejador de Estudos</h1>
+
+<h2>Nova tarefa</h2>
+
+<imput type="text" id="tarefa" placeholder="Digite o nome da terefa"></imput>
+
+<imput type="text" id="Materia" placeholder="Digite a terefa"></imput>
+
+<select id="prioridades"></select>
+
+<option value="">Selecione a prioridade</option>
+<option value="baixa">baixa</option>
+<option value="media">media</option>
+<option value="alta">alta</option>
+<select></select>
+
+<button onclick="adicionarTarefa()"></button>
+                cadastrar tarefa 
+<button onclick="LimparCampos()"></button>
+                Limpar Campos
+<p>id="mensagem"</p>                
+
+<div class="contadores">
+
+  <p>id="contador">Tarefas cadastradas:0 </p>
+  <p> id="ContadorConcluídas"> Tarefas Concluídas:0</p>
+   <div class="contador"></div>
+   <button onclick="AlterarModo()"></button>
+        modo de concentração
+    
+<h2>minhas tarefas</h2>
+
+<div id="ListaTarefas"></div>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
